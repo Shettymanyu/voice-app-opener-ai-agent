@@ -1,0 +1,76 @@
+{
+  "commands": {
+    "claude": {
+      "type": "app",
+      "path": "C:\\Users\\%USERNAME%\\AppData\\Local\\AnthropicClaude\\claude.exe",
+      "fallback": "C:\\Program Files\\AnthropicClaude\\claude.exe",
+      "description": "Open Claude desktop app"
+    },
+    "github": {
+      "type": "url",
+      "url": "https://github.com/Shettymanyu",
+      "description": "Open GitHub profile"
+    },
+    "youtube": {
+      "type": "url",
+      "url": "https://www.youtube.com",
+      "description": "Open YouTube"
+    },
+    "vs code": {
+      "type": "command",
+      "cmd": "code",
+      "description": "Open Visual Studio Code"
+    },
+    "vscode": {
+      "type": "command",
+      "cmd": "code",
+      "description": "Open Visual Studio Code"
+    },
+    "explorer": {
+      "type": "command",
+      "cmd": "explorer",
+      "description": "Open Windows Explorer"
+    },
+    "windows explorer": {
+      "type": "command",
+      "cmd": "explorer",
+      "description": "Open Windows Explorer"
+    },
+    "notepad": {
+      "type": "command",
+      "cmd": "notepad",
+      "description": "Open Notepad"
+    },
+    "calculator": {
+      "type": "command",
+      "cmd": "calc",
+      "description": "Open Calculator"
+    },
+    "spotify": {
+      "type": "command",
+      "cmd": "spotify",
+      "description": "Open Spotify"
+    },
+    "chrome": {
+      "type": "command",
+      "cmd": "chrome",
+      "description": "Open Google Chrome"
+    },
+    "task manager": {
+      "type": "command",
+      "cmd": "taskmgr",
+      "description": "Open Task Manager"
+    }
+  },
+  "settings": {
+    "clap_threshold": 0.0173,
+    "clap_cooldown_sec": 1.5,
+    "listen_phrase_timeout_sec": 2,
+    "listen_phrase_limit_sec": 5,
+    "sample_rate": 44100,
+    "block_size": 1024,
+    "language": "en-US",
+    "play_sounds": true,
+    "log_commands": true
+  }
+}
